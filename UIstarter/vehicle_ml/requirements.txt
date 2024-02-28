@@ -1,0 +1,9 @@
+Cython==0.29.34
+gdown==4.6.6
+ipython==7.34.0
+loguru
+numpy==1.22.4
+onemetric
+supervision==0.1.0
+tqdm==4.65.0
+ultralytics==8.0.17

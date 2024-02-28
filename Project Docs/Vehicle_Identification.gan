@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="CSCE482-23S-2N1" company="" webLink="http://" view-date="2023-01-01" view-index="0" gantt-divider-location="465" resource-divider-location="300" version="3.2.3247" locale="en_US">
+    <description/>
+    <view zooming-state="default:8" id="gantt-chart">
+        <field id="tpd3" name="Name" width="254" order="0"/>
+        <field id="tpd4" name="Begin date" width="97" order="1"/>
+        <field id="tpd5" name="End date" width="98" order="2"/>
+        <option id="filter.completedTasks" value="false"/>
+        <option id="color.recent">
+            <![CDATA[#ffcc00 #ffff00 #0000ff #00cc00 #ff0000 #000000 #f4f4f4 #ff3300]]>
+        </option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Name" width="210" order="0"/>
+        <field id="1" name="Default role" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="13" name="Vehicle Classification Project" color="#000000" meeting="false" start="2023-01-30" duration="62" complete="0" thirdDate="2023-03-06" thirdDate-constraint="0" priority="4" expand="true"/>
+        <task id="3" name="Project Proposal" color="#8cb6ce" meeting="false" start="2023-01-30" duration="11" complete="100" thirdDate="2023-02-13" thirdDate-constraint="0" expand="true">
+            <depend id="0" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="4" name="Project Proposal Slides" color="#8cb6ce" meeting="false" start="2023-01-30" duration="11" complete="100" thirdDate="2023-01-02" thirdDate-constraint="0" expand="true">
+            <depend id="0" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="0" name="Project Proposal Presentation" color="#ff0000" meeting="true" start="2023-02-14" duration="0" complete="0" thirdDate="2023-02-13" thirdDate-constraint="0" priority="4" expand="true"/>
+        <task id="22" name="Vehicle Classification Machine Learning" color="#00cc00" meeting="false" start="2023-02-14" duration="51" complete="100" thirdDate="2023-02-01" thirdDate-constraint="0" priority="4" expand="true">
+            <task id="8" name="Organize Machine Learning Data" color="#00cc00" meeting="false" start="2023-02-14" duration="5" complete="100" thirdDate="2023-02-14" thirdDate-constraint="0" priority="2" expand="true">
+                <depend id="9" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="5" name="ML Model Brainstorming" color="#00cc00" meeting="false" start="2023-02-14" duration="5" complete="100" thirdDate="2023-02-13" thirdDate-constraint="0" priority="2" expand="true">
+                <depend id="9" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="9" name="ML Model Implementation" color="#00cc00" meeting="false" start="2023-02-21" duration="10" complete="100" thirdDate="2023-02-13" thirdDate-constraint="0" expand="true">
+                <depend id="10" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="10" name="ML Model Training" color="#00cc00" meeting="false" start="2023-03-07" duration="10" complete="100" thirdDate="2023-02-13" thirdDate-constraint="0" expand="true">
+                <depend id="11" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="11" name="ML Evaluation" color="#00cc00" meeting="false" start="2023-03-21" duration="5" complete="100" thirdDate="2023-02-13" thirdDate-constraint="0" expand="true">
+                <depend id="12" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="12" name="ML Tuning" color="#00cc00" meeting="false" start="2023-03-28" duration="21" complete="100" thirdDate="2023-02-13" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="21" name="Database" color="#ffcc00" meeting="false" start="2023-02-14" duration="52" complete="100" thirdDate="2023-02-01" thirdDate-constraint="0" expand="true">
+            <task id="6" name="Database Schema Design" color="#ffcc00" meeting="false" start="2023-02-14" duration="5" complete="100" thirdDate="2023-02-13" thirdDate-constraint="0" priority="2" expand="true">
+                <depend id="15" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="14" name="Database Server Setup" color="#ffcc00" meeting="false" start="2023-02-14" duration="4" complete="100" thirdDate="2023-01-02" thirdDate-constraint="0" expand="true">
+                <depend id="15" type="2" difference="0" hardness="Strong"/>
+                <depend id="27" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="15" name="Database Table Creation" color="#ffcc00" meeting="false" start="2023-02-21" duration="2" complete="100" thirdDate="2023-01-02" thirdDate-constraint="0" expand="true">
+                <depend id="17" type="2" difference="0" hardness="Strong"/>
+                <depend id="19" type="2" difference="0" hardness="Strong"/>
+                <depend id="20" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="16" name="Database I/O Format" color="#ffcc00" meeting="false" start="2023-02-16" duration="2" complete="100" thirdDate="2023-01-02" thirdDate-constraint="0" expand="true">
+                <depend id="17" type="2" difference="0" hardness="Strong"/>
+                <depend id="19" type="2" difference="0" hardness="Strong"/>
+                <depend id="20" type="2" difference="0" hardness="Strong"/>
+                <depend id="27" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="17" name="Database Management Software Implementation and Maintenence" color="#ffcc00" meeting="false" start="2023-02-23" duration="44" complete="100" thirdDate="2023-01-02" thirdDate-constraint="0" expand="true"/>
+            <task id="27" name="API Implementation" color="#ffcc00" meeting="false" start="2023-03-22" duration="18" complete="100" thirdDate="2023-02-01" thirdDate-constraint="0" expand="true"/>
+            <task id="19" name="Security User Data Access Organization" color="#ffcc00" shape="1,0,0,0,1,0,0,0,1,0,0,0,1,1,1,1" meeting="false" start="2023-02-23" duration="44" complete="100" thirdDate="2023-02-23" thirdDate-constraint="0" expand="true"/>
+            <task id="20" name="Analyst User Data Access Organization" color="#ffcc00" shape="1,1,1,0,1,1,0,0,1,0,0,0,0,0,0,0" meeting="false" start="2023-02-23" duration="45" complete="100" thirdDate="2023-02-23" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="24" name="UI" color="#0000ff" meeting="false" start="2023-02-23" duration="45" complete="100" thirdDate="2023-01-23" thirdDate-constraint="0" expand="true">
+            <task id="7" name="User Interface Sketch" color="#0000ff" meeting="false" start="2023-02-23" duration="5" complete="100" thirdDate="2023-02-06" thirdDate-constraint="0" priority="2" expand="true">
+                <depend id="25" type="2" difference="0" hardness="Strong"/>
+                <depend id="26" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="23" name="User Interface Prototype" color="#0000ff" meeting="false" start="2023-02-23" duration="19" complete="100" thirdDate="2023-01-23" thirdDate-constraint="0" expand="true">
+                <depend id="25" type="2" difference="0" hardness="Strong"/>
+                <depend id="26" type="2" difference="0" hardness="Strong"/>
+                <depend id="27" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="25" name="User Interface Security" color="#0000ff" meeting="false" start="2023-03-22" duration="26" complete="100" thirdDate="2023-01-23" thirdDate-constraint="0" expand="true"/>
+            <task id="26" name="User Interface Analyst" color="#0000ff" shape="0,0,0,0,1,1,1,1,0,0,0,0,1,1,1,1" meeting="false" start="2023-03-22" duration="26" complete="100" thirdDate="2023-03-22" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="1" name="CDR Presentation" color="#ff0000" meeting="true" start="2023-03-28" duration="0" complete="0" thirdDate="2023-01-17" thirdDate-constraint="0" priority="4" expand="true"/>
+        <task id="2" name="Project Demo" color="#ff0000" meeting="true" start="2023-04-25" duration="0" complete="0" thirdDate="2023-02-13" thirdDate-constraint="0" priority="4" expand="true"/>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+    <roles roleset-name="SoftwareDevelopment"/>
+</project>

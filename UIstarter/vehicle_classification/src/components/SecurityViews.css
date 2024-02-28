@@ -1,0 +1,36 @@
+.videomp4 {
+    padding-top: 3%;
+    padding-left: 2%;
+}
+
+.flex-container {
+    display: flex;
+    border: 3px;
+    /* border: solid red; */
+    /* width: 100vw; */
+}
+  
+.flex-child {
+    flex: 1;
+    /* border: solid red; */
+    /* width: 100%; */
+}
+
+.table-view {
+    width: 48%;
+}
+
+.flex-child:first-child {
+    flex: .20 !important;
+    margin-right: 20px;
+    margin-left: 15px;
+}
+
+h1 {
+    color: #333;
+}
+
+.table {
+    padding-left: 3%;
+    padding-top: 3%;
+}

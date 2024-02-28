@@ -1,0 +1,13 @@
+version: '3.8'
+services:
+  frontend:
+    build: ./UIstarter/vehicle_classification
+    image: vehicle_classification
+    ports:
+      - '3000:3000'
+  
+  fastifyapi:
+    build: ./UIstarter/server
+    image: fastifyapi
+    ports:
+      - '5000:5000'

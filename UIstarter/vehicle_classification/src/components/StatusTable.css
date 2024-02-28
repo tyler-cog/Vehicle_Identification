@@ -1,0 +1,9 @@
+.container {
+    padding-top: 10%;
+}
+
+
+.td, .th, .tr {
+    flex-shrink: 1 !important;
+    min-width: auto !important;
+}
