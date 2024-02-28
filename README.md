@@ -1,4 +1,4 @@
-# CSCE482_23S-2N1
+# 2N1
 2N1 Project
 
 In order to run our app you must first download our code. There are multiple ways to clone the repository. We suggest clicking on the green Code<> button and copying the web URL to clone the repository in VS code. 
